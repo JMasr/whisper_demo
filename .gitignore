@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# idea files
+**/.idea
+
+#ignore the txt files
+*.txt
+#ignore the audio files
+*.wav
+*.flac
+*.mp3
+#ignore images
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+
+#ignore the Dataset directory
+**/Dataset/
+
+#ignore log files
+*.out
+*.err
+
+#ignore model files
+**/models/
+**/results/
+
+
+#ignore pickle files
+*.pkl
+*.pickle
